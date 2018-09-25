@@ -1,3 +1,5 @@
+Learning, RS Implementation will be published on Work GitHub (private repo).
+
 # Library
 - Lightfm: https://github.com/lyst/lightfm
 - Surprise: http://surpriselib.com/
