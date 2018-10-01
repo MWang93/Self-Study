@@ -14,19 +14,19 @@ Learning, RS Implementation will be published on Work GitHub (private repo).
 - Hybrid
 - Popularity Trends
 
-# Algorism
+# Algorithms
 - Memory based: reply on simple similarity measures to match similar people or item together. If we have a huge item-user matrix, memory-based techniques use the similarity measures on two vectors of such a matrix to generate a number representing similarity.
-  - Correlation Similarity (KNN)
-    1. Jaccard Similarity: n_users (rated item1 and item2) / n_users (rated item1 or item2), typically used in **Implicit Feedback** model.
-    2. Cosine Similarity: cosine of the item vectors.
-    3. Pearson Similarity：pearson coefficient between the item vectors.
+  - Correlation similarity (KNN)
+    1. Jaccard similarity: n_users (rated item1 and item2) / n_users (rated item1 or item2), typically used in **Implicit Feedback** model.
+    2. Cosine similarity: cosine of the item vectors.
+    3. Pearson similarity：pearson coefficient between the item vectors.
 - Model based: guess how much a user will like an item that they didn't interact before.
-  - Matrix Factorization (SVD, SGD, ALS): Break a user-item feature matrix into a product of matrics, n_users * r_features AND r_features * m_items. The latent features are hidden features which are derived from the observed features using matrix factorization.
-  - Deep Learning / Neural Net
-- Graph Algorithms (pinterest recommendation system)
-- Association Rules
+  - Matrix factorization (SVD, SGD, ALS): Break a user-item feature matrix into a product of matrics, n_users * r_features AND r_features * m_items. The latent features are hidden features which are derived from the observed features using matrix factorization.
+  - Deep learning / Neural net
+- Graph algorithms (pinterest recommendation system)
+- Association rules
 
-# Evaluate
+# Evaluation
 - RMSE doesn't tell a true story, always low….
 - Ranking Metrics: MAP(classification) and NDCG(regression)  
   - http://fastml.com/evaluating-recommender-systems/
