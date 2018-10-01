@@ -17,9 +17,9 @@ Learning, RS Implementation will be published on Work GitHub (private repo).
     1. Jaccard Similarity: n_users (rated item1 and item2) / n_users (rated item1 or item2), typically used in **Implicit Feedback** model.
     2. Cosine Similarity: cosine of the item vectors.
     3. Pearson Similarity：pearson coefficient between the item vectors.
-- Model Based
-  - Matrix Factorization (SGD, ALS): Break a user-item feature matrix into a product of matrics, n_users * r_features AND r_features * m_items. The latent features are hidden features which are derived from the observed features using matrix factorization.
-  - ML (SVM, Neural Net)
+- Model Based 
+  - Matrix Factorization (SVD, SGD, ALS): Break a user-item feature matrix into a product of matrics, n_users * r_features AND r_features * m_items. The latent features are hidden features which are derived from the observed features using matrix factorization.
+  - Deep Learning / Neural Net
 - Graph Algorithms (pinterest recommendation system)
 - Association Rules
 
