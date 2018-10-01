@@ -3,7 +3,10 @@ Learning, RS Implementation will be published on Work GitHub (private repo).
 # Types 
 - Content-based recommendation (based on item attributes)
 - Collaborative filtering (based on similar iteractions)
-  - User-based: Both User1 and User2 like Item1 and Item2, So User1 and User2 are considered as similar users. User1 also liked Item3, so we guess User2 also likes Item3 (similar to User1).
+  - User-based: 
+    - 1. Find similar users by using a similarity metric.
+      2. For a user, recommend the items most similar to the users (s)he alreadys likes.
+    - Both User1 and User2 like Item1 and Item2, So User1 and User2 are considered as similar users. User1 also liked Item3, so we guess User2 also likes Item3 (similar to User1).
   - Item-based: 
     - 1. Find similar items by using a similarity metric.
       2. For a user, recommend the items most similar to the items (s)he already likes.
