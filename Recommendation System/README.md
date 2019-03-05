@@ -21,7 +21,7 @@ Learning, RS Implementation will be published on Work GitHub (private repo).
     2. Cosine similarity: cosine of the item vectors.
     3. Pearson similarity：pearson coefficient between the item vectors.
 - Model based: guess how much a user will like an item that they didn't interact before.
-  - Matrix factorization (SVD, SGD, ALS): Break a user-item feature matrix into a product of matrics, n_users * r_features AND r_features * m_items. The latent features are hidden features which are derived from the observed features using matrix factorization.
+  - Matrix factorization (SVD, SGD, ALS): Break a user-item feature matrix into a product of matrics, n_users * r_features AND r_features * m_items. The latent features are hidden features which are derived from the observed features using matrix factorization. Choice of r_features is a trade-off between discovering hidden concepts and avoiding overfitting, therefore, r_features should be chosen wisely.
   - Deep learning / Neural net
 - Graph algorithms (pinterest recommendation system)
 - Association rules
