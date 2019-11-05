@@ -41,6 +41,7 @@ Learning, RS Implementation will be published on Work GitHub (private repo).
 - Pyspark ALS: http://www.learnbymarketing.com/993/pyspark-als-and-recommendation-outputs/
 - Crab: https://github.com/muricoca/crab
 - Graph Lab: https://turi.com/
+- Lightfm
 
 # Note
 - For large number of users and items, collaborative filtering approaches however suffer from sparsity problems (as many of the items are not rated by users) and hence accuracy of the system falls-off. However, model-based CF systems are more scalable as compared to memory-based systems and are more robust to deal with sparsity issues, hence improving the accuracy.
